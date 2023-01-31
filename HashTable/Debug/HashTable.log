@@ -1,0 +1,26 @@
+﻿  Main.cpp
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(340,77): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(340,59): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(340,41): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(340,23): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(418,97): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(418,74): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(418,51): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(418,28): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(520,89): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(520,68): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(520,47): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(520,26): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(652,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(733,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(733,21): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(735,31): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(735,19): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(740,32): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(740,20): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(741,32): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(741,20): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(1006,7): warning C4101: cr: неиспользованная локальная переменная
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(202): warning C4172: возвращение адреса локальной или временной переменной
+C:\Users\user\source\repos\SpaceShipTheGame\HashTable\Main.cpp(265): warning C4715: PXLCOLOR: значение возвращается не при всех путях выполнения
+  HashTable.vcxproj -> C:\Users\user\source\repos\SpaceShipTheGame\Debug\HashTable.exe

@@ -7,6 +7,7 @@ int main() {
 	std::cout << "This is Spaceship";
 
     std::cout << " " << std::endl;
+
         std::cout << "------!" << std::endl;
         std::cout << "------!" << std::endl;
         std::cout << "------^" << std::endl;
