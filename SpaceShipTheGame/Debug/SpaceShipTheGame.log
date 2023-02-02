@@ -1,2 +1,5 @@
-﻿  Main.cpp
-  SpaceShipTheGame.vcxproj -> C:\Users\user\source\repos\SpaceShipTheGame\Debug\SpaceShipTheGame.exe
+﻿Main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: static class std::unique_ptr<class lunasvg::Document,struct std::default_delete<class lunasvg::Document> > __cdecl lunasvg::Document::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadFromFile@Document@lunasvg@@SA?AV?$unique_ptr@VDocument@lunasvg@@U?$default_delete@VDocument@lunasvg@@@std@@@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z) в функции _main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: class lunasvg::Bitmap __thiscall lunasvg::Document::renderToBitmap(unsigned int,unsigned int,unsigned int)const " (?renderToBitmap@Document@lunasvg@@QBE?AVBitmap@2@III@Z) в функции _main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall lunasvg::Document::~Document(void)" (??1Document@lunasvg@@QAE@XZ) в функции "public: void * __thiscall lunasvg::Document::`scalar deleting destructor'(unsigned int)" (??_GDocument@lunasvg@@QAEPAXI@Z).
+C:\Users\user\source\repos\SpaceShipTheGame\libs\LunaSVG\Release\lunasvg.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Users\user\source\repos\SpaceShipTheGame\Debug\SpaceShipTheGame.exe : fatal error LNK1120: неразрешенных внешних элементов: 3

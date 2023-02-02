@@ -2,32 +2,59 @@
 #include <conio.h>
 #include <Windows.h>
 
-int main() {
+#include <SFML/Graphics.hpp>
 
-	int a = 0;
+void MoveBackground(sf::Sprite &backgroundSprite){
 
-	while (!_kbhit()) {
+    static sf::IntRect textureRectangle(0, 0, 1360, 768);
 
-		system("cls");
+    static int& offset = textureRectangle.left;
 
-		for (int i(0); i < 80; i++) {
+    offset++;
 
-			if (i == a)
-				std::cout << "0";
-			else
-				std::cout << "=";
+    if (offset == 4081) {
+        offset = 1;
+    }
 
-		}
+    backgroundSprite.setTextureRect(textureRectangle);
 
-		a++;
+    Sleep(20);
 
-		if (a == 80)
-			a = 0;
+}
 
-		Sleep(20);
+int main()
+{
+    sf::RenderWindow window(sf::VideoMode(1360, 768), "SFML works!", NULL);
+    
+    sf::RectangleShape shape(sf::Vector2f(4081, 768));
 
-	}
+    sf::Texture texture;
 
-	return 0;
+    texture.loadFromFile("C:\\Users\\user\\source\\repos\\SpaceShipTheGame\\Resources\\Background\\BitStars.png", sf::IntRect(0, 0, 5101, 768));
 
+    sf::Sprite sprite;
+
+    sprite.setTexture(texture);
+
+    sprite.setTextureRect(sf::IntRect(0, 0, 1360, 768));
+
+    shape.setFillColor(sf::Color::Green);
+
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        MoveBackground(sprite);
+
+        window.clear();
+        window.draw(sprite);
+        window.display();
+    }
+
+    return 0;
 }
